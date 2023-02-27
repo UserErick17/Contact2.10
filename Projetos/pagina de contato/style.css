@@ -1,0 +1,54 @@
+body {
+	background-color: black;
+	margin:auto;
+	max-width: 100%; 
+}
+
+
+.corpo {
+	background-image: url("https://i.pinimg.com/originals/49/f0/7e/49f07e40e6e034bc64a4bd9719e95ddb.png");
+	display: block;
+	width: 100px;
+	margin: 10px auto 100px auto;
+	padding: 10px;
+
+}
+
+.fotoPerfil {
+	background-color: rgba(0, 0, 0, .9);
+	border-radius: 50%; 
+	width: 150px; height: 150px;  
+	margin: 40px auto 50px auto; 
+	display: block; 
+	position: center; 
+	border: 2px solid lightgreen; 
+	padding: 5px;
+}
+
+.imagemDoida {
+	border-radius: 2%; 
+	width: 50px; 
+	height: 50px;
+	margin: 10px;
+}
+
+.formasDeContato {
+	background-color: rgba(0, 0, 0, .5);
+	display: block;
+	padding: 2px;
+	border: 2px solid lightgreen;
+	border-radius: 10px;
+	margin: 15px 10px 10px 10px;
+	text-align: center;
+	background-color: none;
+}
+
+.corpo li:hover {
+    border-color: white;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.corpo li:active {
+    border-color: white;
+    background-color: rgba(0, 0, 0, .9);
+}
